@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reinforcment Learning</title>
+    <link href="{% static 'src/output.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>BuildAI</h1>
+
+    <h1>Home</h1>
+    <div class="text-center flex h-96">
+      <div class="m-5 p-10 outline w-1/4 h-full flex">
+        <a
+          href="/courses/Supervised/0"
+          class="inline-block w-full text-center align-middle p-5 text-3xl"
+        >
+          Supervised Learning
+        </a>
+      </div>
+
+      <div class="m-5 p-10 outline w-1/4 h-full flex">
+        <a
+          href="/courses/Unsupervised/0"
+          class="inline-block w-full text-center align-middle p-5 text-3xl"
+        >
+          Unsupervised Learning
+        </a>
+      </div>
+
+      <div class="m-5 p-10 outline w-1/4 h-full flex">
+        <a
+          href="/courses/Reinforcement/0"
+          class="inline-block w-full text-center align-middle p-5 text-3xl"
+        >
+          Reinforcement Learning
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

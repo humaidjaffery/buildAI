@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'src/output.css' %}" rel="stylesheet" />
+    <title>{{course}} Learning</title>
+  </head>
+  <body class="w-full h-full flex" >
+    <div class="h-1/5 w-full">
+      <h1 class="text-5xl">{{course}} Learning (Module {{module}})</h1>
+    </div>
+    
+    <div class="w-full h-full outline flex">
+      <div class="w-1/5 flex flex-col outline-dotted gap-y-5">
+        
+      </div>
+
+    </div>
+
+  </body>
+</html>
